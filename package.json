@@ -1,0 +1,14 @@
+{
+  "name": "2sum",
+  "version": "1.0.0",
+  "description": "get pairs of ints from an array that added together equal a given target",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "dnmcky",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
