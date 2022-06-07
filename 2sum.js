@@ -8,7 +8,7 @@ const twoSum = (array, target) => {
         if (checkedNumber) {
             pairs.push([checkedNumber, element])
         }
-        // find the difference between the element and the target. make the difference a key(solution) in the solution map
+        // find the difference between the element and the target. make the difference a key (solution) in the solution map
         const difference = target - element;
         solutionMap.set(difference, element);
     })
